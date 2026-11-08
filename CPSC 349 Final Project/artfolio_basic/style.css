@@ -1,0 +1,38 @@
+/* Basic layout for the first project submission */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+header {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+nav a {
+  margin-right: 8px;
+}
+main {
+  margin-top: 25px;
+}
+.gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.item {
+  border: 1px solid gray;
+  padding: 10px;
+}
+.placeholder {
+  width: 180px;
+  height: 130px;
+  border: 1px dashed gray;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+}
+.placeholder.large {
+  width: 300px;
+  height: 220px;
+}
